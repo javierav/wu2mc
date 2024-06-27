@@ -2,8 +2,8 @@
 
 require "bundler/setup"
 
-require_relative "../api"
-require_relative "../conversor"
+require_relative "../lib/api"
+require_relative "../lib/conversor"
 
 require "irb"
 require "irb/theme/tokyonight/storm"
