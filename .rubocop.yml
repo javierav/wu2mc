@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:
+    - "**/bin/**/*"
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  NewCops: enable
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
